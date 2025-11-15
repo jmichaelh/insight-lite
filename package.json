@@ -1,5 +1,5 @@
 {
-  "name": "insight-hunter-lite",
+  "name": "insight-lite",
   "version": "1.0.0",
   "description": "Insight Hunter Lite - Empowering small business with forecasting and reporting",
   "main": "frontend/main.tsx",
