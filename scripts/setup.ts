@@ -8,7 +8,7 @@ const forecast = {
   labels: ["Q1", "Q2", "Q3", "Q4"]
 }
 
-const KV = "replace-with-kv-id"
+const KV =  "6dd308dd1c0a4d6c83cb3ffd82847530"
 
 users.forEach(user => {
   execSync(`npx wrangler kv:key put ${user.email} '${JSON.stringify(user)}' --namespace-id ${KV}`, { stdio: "inherit" })
