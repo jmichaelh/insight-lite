@@ -5,7 +5,7 @@
   "main": "frontend/main.tsx",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build" && npm install && npm run audit --force",
     "start": "vite preview",
     "setup": "node setup.js"
   },
