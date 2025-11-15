@@ -1,4 +1,4 @@
-name = "insight-hunter-lite"
+name = "insight-lite"
 main = "backend/index.ts"
 compatibility_date = "2025-11-15"
 workers_dev = true
