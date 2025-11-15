@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: npm install --save-dev @cloudflare/workers-types
+      - run: npm install 
       - run: npm run setup || true
       - run: npx wrangler deploy
       - run: npx wrangler pages deploy ./frontend --project-name insight-hunter-lite
