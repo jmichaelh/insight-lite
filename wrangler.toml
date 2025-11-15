@@ -1,0 +1,15 @@
+name = "insight-hunter-lite"
+main = "backend/index.ts"
+compatibility_date = "2025-11-15"
+workers_dev = true
+
+[vars]
+JWT_SECRET = "replace-me"
+
+[[kv_namespaces]]
+binding = "USER_STORE"
+id = "replace-with-kv-id"
+
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "ih-pdfs"
